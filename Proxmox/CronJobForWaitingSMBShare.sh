@@ -4,7 +4,7 @@
 LOGFILE="/var/log/start-jelly.log"
 
 # Variables for mount point and CT ID
-MOUNT_POINT="/mnt/pve/DriveName" #Your mount folder of SMB Share
+MOUNT_POINT="/mnt/pve/SMBShareName" #Your mount folder of SMB Share
 CT_ID=101 #Change it to your container id
 
 # Log the start time of the script
