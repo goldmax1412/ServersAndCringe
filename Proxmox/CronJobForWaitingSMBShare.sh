@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Log file to store the script's output
-LOGFILE="/var/log/start-jelly.log"
+LOGFILE="/var/log/start.log"
 
 # Variables for mount point and CT ID
-MOUNT_POINT="/mnt/pve/SMBShareName" #Your mount folder of SMB Share
-CT_ID=101 #Change it to your container id
+MOUNT_POINT="/mnt/pve/SMBShareName" # Your mount folder of SMB Share
+CT_ID=101 # Change it to your container id
 
 # Log the start time of the script
 echo "Script started at $(date)" >> $LOGFILE
