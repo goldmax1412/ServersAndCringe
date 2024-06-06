@@ -42,6 +42,8 @@ on your host machine or create a shell script with contents of it.
 ```
 
 Where is @reboot is time to start our script (you can edit the startup time to suit your needs by checking the crontab documentation). And /home/CronJobForWaitingSMBShare.sh is full way from root folder to our script file. 
+## 5. Success?
+If everything was done according to the instructions, then after restarting the node, our script will take over and start the desired container as soon as the SMB Share is available on the network.
 ## Logs
 
 You can check the result of the script in the logs /var/log/start.log
